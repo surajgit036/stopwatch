@@ -1,6 +1,13 @@
+
+
 body {
-    background: #66077d;
-    height: 100%;
+    background-color: #000;
+     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%); 
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: #fff;
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+    
 }
 .outer {
     height: 250px;
@@ -8,6 +15,12 @@ body {
     border: solid 10px #5b6b6d;
     margin: 60px auto;
     color:#080808;
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+
+    
+
+
     text-align: -webkit-center;
     border-radius: 25px;
 }
